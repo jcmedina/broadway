@@ -1,4 +1,20 @@
 /* Broadway Design - Codecademy Project Unit 3 */
-ul {
+body {
+  text-align: center;
+}
+li {
   list-style: none;
+}
+a {
+  font-family: Helvetica;
+  color:white;
+}
+h1 {
+  font-family: Helvetica;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+.header {
+  background-image: url("./resources/images/the-flatiron-building.png");
 }
