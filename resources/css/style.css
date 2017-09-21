@@ -1,4 +1,7 @@
-/* Broadway Design - Codecademy Project Unit 3 */
+/*
+    Broadway Design - Codecademy Project Unit 3
+    Global
+*/
 body {
   text-align: center;
 }
@@ -9,12 +12,46 @@ a {
   font-family: Helvetica;
   color:white;
 }
+p {
+  font-family: Helvetica;
+  font-size: 14px;
+}
+/*
+    Headers
+*/
 h1 {
   font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
   color: white;
 }
+h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+}
+h3 {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: : bold;
+}
+/*
+    Special Classes
+*/
 .hero {
-  background-image: url('./resources/images/the-flatiron-building.png');
+/* I am puzzled by this. How do you do relative/absolute paths? */
+  background-image: url('https://github.com/jcmedina/broadway/blob/master/resources/images/the-flatiron-building.png?raw=true');
+}
+.about-special {
+  background-image: url('https://github.com/jcmedina/broadway/blob/master/resources/images/the-flatiron-building.png?raw=true');
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+.footer {
+  font-family: Helvetica;
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
 }
