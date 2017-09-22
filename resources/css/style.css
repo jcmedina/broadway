@@ -15,6 +15,7 @@ a {
 p {
   font-family: Helvetica;
   font-size: 14px;
+  color: black;
 }
 /*
     Headers
@@ -28,12 +29,13 @@ h1 {
 h2 {
   font-family: Helvetica;
   font-size: 32px;
-  font-weight: bold;
+  color: black;
 }
 h3 {
   font-family: Helvetica;
   font-size: 23px;
   font-weight: : bold;
+  color: black;
 }
 /*
     Special Classes
@@ -54,4 +56,5 @@ h3 {
   font-size: 11px;
   color: white;
   background-color: dimgray;
+  text-alight: left;
 }
