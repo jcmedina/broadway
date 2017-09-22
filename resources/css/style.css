@@ -56,5 +56,8 @@ h3 {
   font-size: 11px;
   color: white;
   background-color: dimgray;
-  text-alight: left;
+  text-align: left;
+}
+.copyright {
+  font-size: 8px; 
 }
